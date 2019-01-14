@@ -30,11 +30,23 @@ Cada una de ellas contiene sus componentes inteligentes y también un modal para
 
 ### Creación de API
 
-La data usada durante la aplicación y todos los recursos tanto de imagenes como videos, se almacenaron en una sencilla API la cual fue consumida para la creación de cada componente e información dentro de la APP.
+La data usada durante la aplicación y todos los recursos tanto de imagenes como videos, se almacenaron de manera estatiaca en una API la cual fue consumida desde React para hacer uso del contenido que esta trae.
 
 ### Añadiendo estilos a Componentes
 
 Cada componente UI que se iba creando llevaba su correspondiente estilo basado en CSS3 para dar diseño a la UI de la aplicación.
 
+Cada estilo fue separado por componentes para llevar un mayor orden dentro de la elaboración de la UI. Y fueron insertados en sus respectivos componentes funcionales.
+
 > No se hizo uso de ningun pre-procesador de CSS como Stylus o SASS
 
+### Deploy
+
+Al tener toda la aplicación contruida en etapa de producción, se proceció a hacer un deploy de esta para poder ser hosteada en un servidor web públicamente.
+
+
+## Resultado final
+
+![Final delivery]()
+
+La meta del proyecto era bastante academica con el fin de aprender y fundamentar conceptos sobre el desarrollo de aplicaciones web en React. Se aprendieron las mejores practicas y los últimos features publicados por la comunidad de Facebook. 
