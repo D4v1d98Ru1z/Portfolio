@@ -24,23 +24,23 @@ El resultado del proyecto fue bastante satisfactorio dada a la gran colaboració
 
 ![Sketch]()
 
-### - Planeación
+###  Planeación
 
 Se realizó la planeación del proyecto haciendo una recolección de ideas haciendo uso de design thinking para poder realizar un producto que de solución a la problemática que se estaba abarcando.
 
 Cómo resultado, dio a conocer las herramientas necesarias que se iban a necesitar para el desarrollo de este.
 
-### - Requerimientos
+###  Requerimientos
 
 Al superar la etapa de planeación se procedió al levantamiento de requerimientos. Definiendo casos de uso, Arquitecturas, dispositivos en los que se iba a desarrollar, etc.
 
-### - Prototipo
+###  Prototipo
 
 Una vez definidos los requerimientos se procedió a hacer un prototipo UI de la aplicación. Se realizaron varios diseños de como iba a ser el resultado final.
 
 ![Other mockup]()
 
-### - Fase de programación
+###  Fase de programación
 
 Se optó por programar toda la aplicación en el entorno de desarrollo ASP.NET MVC y con un gestor de bases de datos MySQL.
 
