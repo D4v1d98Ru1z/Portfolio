@@ -1,6 +1,6 @@
 # Quickmenu
 
-![Mockup]()
+![Mockup](../assets/Quickmenu/home.png)
 
 Quickmenu es una plataforma que permite gestionar la forma en la que se hacen pedidos en establecimientos gastronómicos.
 
@@ -38,7 +38,7 @@ Al superar la etapa de planeación se procedió al levantamiento de requerimient
 
 Una vez definidos los requerimientos se procedió a hacer un prototipo UI de la aplicación. Se realizaron varios diseños de como iba a ser el resultado final.
 
-![Other mockup]()
+![Other mockup](../assets/Quickmenu/mockup.png)
 
 ###  Fase de programación
 
@@ -50,7 +50,7 @@ De manera paralela se realiza el backend en C# y el modelo relacional de bases d
 
 ## Resultado Final
 
-![Quickmenu APP]()
+![Quickmenu APP](../assets/Quickmenu/final.png)
 
 Tras el trabajo largo y continuo de todo el team, el resultado que se obtuvo fué bastante satisfactorio.
 
