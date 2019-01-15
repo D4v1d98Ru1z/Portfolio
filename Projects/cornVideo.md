@@ -1,6 +1,6 @@
 # CornVideo
 
-![CornVideo](../assets/projectImg/corn.png)
+![CornVideo](../assets/CornVideo/corn.png)
 
 CornVideo es una single page application en la que se puede reproducir videos online.
 
@@ -10,7 +10,7 @@ Este es un proyecto personal con el fin de profundizar en conceptos de desarroll
 
 La caracteristica principal de este fue crear desde cero un reproductor de video haciendo funcional todos sus botones como Play/Pause, Volume, Fullscreen. 
 
-![Video Player](../assets/projectImg/video.png)
+![Video Player](../assets/CornVideo/video.png)
 
 ## Proceso de desarrollo
 
@@ -47,6 +47,6 @@ Al tener toda la aplicación contruida en etapa de producción, se proceció a h
 
 ## Resultado final
 
-![Final delivery](../assets/projectImg/player.png)
+![Final delivery](../assets/CornVideo/player.png)
 
 La meta del proyecto era bastante academica con el fin de aprender y fundamentar conceptos sobre el desarrollo de aplicaciones web en React. Se aprendieron las mejores practicas y los últimos features publicados por la comunidad de Facebook. 
