@@ -1,8 +1,8 @@
 # CornVideo
 
-![CornVideo]()
+![CornVideo](../assets/projectImg/corn.png)
 
-CornVideo es una single web application en la que se puede reproducir videos online.
+CornVideo es una single page application en la que se puede reproducir videos online.
 
 ## Meta del proyecto
 
