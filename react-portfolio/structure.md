@@ -1,4 +1,6 @@
+# Application Structure
 
+This is how's going to be the structure of the components.
 
 ```
 Home 
@@ -16,18 +18,34 @@ Home
 │    
 │   
 └─── Content (Smart)
-│   │   Content Layout (UI)
-│   │
-│   └───Welcome (Smart)
-│   │   │
-│   │   └─── Hello (UI)
-│   │ 
-│   └───About (Smart)
-│   |   │
-│   |   └─── List Links (UI)
-│   │ 
-│   └───Skills (Smart)
-│   |   │
-│   |   └─── List Links (UI)
+    │   Content Layout (UI)
+    │
+    └───Welcome (Smart) -> State
+    │   │
+    │   └─── Hello (UI)
+    │ 
+    └───About (Smart)
+    |   │
+    |   └───About (UI)
+    │ 
+    └───Skills (Smart)
+    |   │
+    |   └─── Skills (UI)
+    │ 
+    └─── Projects (Smart)
+    |   │
+    |   └─── Projects (UI)
+    │ 
+    └─── Recomendations (Smart)
+    |   │
+    |   └─── Recomendations (UI)
+    │ 
+    └─── Contact (Smart) -> State
+    |   │
+    |   └─── Contact (UI)
+    │ 
+    └─── Footer (Smart)
+        │
+        └─── Footer (UI)
 
 ```
