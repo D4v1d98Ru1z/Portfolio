@@ -51,6 +51,56 @@
     },
     "skills": 
     {
-        
+        "title": "Mis Habilidades",
+        "topics": [
+            {
+                "title": "Frontend",
+                "src": "",
+                "id": 1
+            },
+            {
+                "title": "Desarrollo móvil",
+                "src": "",
+                "id": 2
+            },
+            {
+                "title": "Backend",
+                "src": "",
+                "id": 3
+            }
+        ]
+    },
+    "projects": 
+    {
+        "title": "Mis Proyectos",
+        "project": [
+            {
+                "title": "CornVideo",
+                "src": "",
+                "id": 1
+            },
+            {
+                "title": "QuickMenu",
+                "src": "",
+                "id": 2
+            },
+            {
+                "title": "Dentist",
+                "src": "",
+                "id": 3
+            }
+        ]
+    },
+    "recommendations":
+    {
+        "title": "Recomendaciones",
+        "comments": [
+            {
+                "id": 1,
+                "name": "Maria Alejandra Manosalva Estrada",
+                "occupation": "Od. Especialista en endodoncia",
+                "text": "Con David trabajamos todo muy bien, hubo buena comunicación y fue atento con los cambios. Se desempeñó muy bien como desarrollador Freelance. Espero seguir trabajando juntos."
+            }
+        ]
     }
 }
