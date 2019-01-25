@@ -8,18 +8,9 @@ class Header extends Component {
         return(
             <HeaderLayout>
                 <Logo/>
-                <div>
-                    {
-                        this.props.navbar.map(item => {
-                            return(
-                                <Links
-                                    key={item.id}
-                                    {...item}
-                                />
-                            )
-                        })
-                    }
-                </div>
+                <Links
+                    navbar={this.props.navbar}
+                />
 
             </HeaderLayout>
         )

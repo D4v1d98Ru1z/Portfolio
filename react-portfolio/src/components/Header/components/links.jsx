@@ -1,11 +1,21 @@
 import React from 'react'
+import Link from './link'
 
-function Links(props) {
+function Links (props){
     return(
         <div>
-            <a>{props.name}</a>
+            {
+                props.navbar.map(item => {
+                    return(
+                        <Link
+                            key={item.id}
+                            {...item}
+                        />
+                    )
+                })
+            }
         </div>
-    )
+)
 }
 
 export default Links
