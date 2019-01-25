@@ -6,7 +6,9 @@ class Home extends Component {
     render(){
         return(
             <HomeLayout>
-                <Header/>
+                <Header
+                    navbar={this.props.data.navbar}
+                />
             </HomeLayout>
         )
     }
