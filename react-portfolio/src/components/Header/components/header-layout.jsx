@@ -1,8 +1,9 @@
 import React from 'react'
+import './header-layout.scss'
 
 function HeaderLayout(props){
     return(
-        <section>
+        <section className="HeaderLayout">
             {props.children}
         </section>
     )
