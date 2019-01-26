@@ -1,8 +1,9 @@
 import React from 'react'
+import './link.scss'
 
 function Link(props) {
     return(
-        <div>
+        <div className="Link">
             <a>{props.name}</a>
         </div>
     )
