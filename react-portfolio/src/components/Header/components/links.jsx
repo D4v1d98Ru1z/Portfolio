@@ -6,6 +6,7 @@ const Div = styled.div`
     width: 60%;
     display: flex;
     text-align: right;
+    justify-content: center;
 `
 
 function Links (props){

@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const LogoDiv = styled.div`
     width: 40%;
     display: flex;
+    justify-content: center;
 ` 
 const Img = styled.img`
     src: url(${props => props.src});
