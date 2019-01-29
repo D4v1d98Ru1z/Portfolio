@@ -9,6 +9,9 @@ const Div = styled.div`
 const Anchor = styled.a`
     color: black;
     text-decoration: none;
+    &:hover {
+        color: red;
+    }
 `
 
 function Link(props) {
