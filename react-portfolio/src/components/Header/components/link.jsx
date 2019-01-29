@@ -6,10 +6,15 @@ const Div = styled.div`
     margin-right: 1em;
 `
 
+const Anchor = styled.a`
+    color: black;
+    text-decoration: none;
+`
+
 function Link(props) {
     return(
         <Div>
-            <a href="/">{props.name}</a>
+            <Anchor href="/">{props.name}</Anchor>
         </Div>
     )
 }
