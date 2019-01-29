@@ -9,7 +9,7 @@ const Div = styled.div`
 function Link(props) {
     return(
         <Div>
-            <a>{props.name}</a>
+            <a href="/">{props.name}</a>
         </Div>
     )
 }
