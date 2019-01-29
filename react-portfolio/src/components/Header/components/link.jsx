@@ -1,11 +1,16 @@
 import React from 'react'
-import './link.scss'
+import styled from 'styled-components'
+
+const Div = styled.div`
+    align-self: center;
+    margin-right: 1em;
+`
 
 function Link(props) {
     return(
-        <div className="Link">
+        <Div>
             <a>{props.name}</a>
-        </div>
+        </Div>
     )
 }
 

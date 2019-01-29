@@ -1,10 +1,16 @@
 import React from 'react'
 import Link from './link'
-import './links.scss'
+import styled from 'styled-components'
+
+const Div = styled.div`
+    width: 60%;
+    display: flex;
+    text-align: right;
+`
 
 function Links (props){
     return(
-        <div className="Links">
+        <Div>
             {
                 props.navbar.map(item => {
                     return(
@@ -15,7 +21,7 @@ function Links (props){
                     )
                 })
             }
-        </div>
+        </Div>
 )
 }
 

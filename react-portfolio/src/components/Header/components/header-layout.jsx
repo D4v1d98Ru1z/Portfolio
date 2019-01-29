@@ -1,11 +1,15 @@
 import React from 'react'
-import './header-layout.scss'
+import styled from 'styled-components'
 
+const Section = styled.div`
+    width: 100%;
+    display: flex;
+`
 function HeaderLayout(props){
     return(
-        <section className="HeaderLayout">
+        <Section>
             {props.children}
-        </section>
+        </Section>
     )
 }
 
