@@ -34,17 +34,17 @@
             {
                 "id": 1,
                 "text": "Como estudiante de ingeniería de sistemas mi enfoque se vió siempre dirigido hacia el desarrollo de software. Fué así que los últimos dos años me dediqué a investigar y aprender nuevas tecnologías enfocadas a la programación.",
-                "src": ""
+                "src": "https://github.githubassets.com/images/modules/site/home-illo-team.svg"
             },
             {
                 "id": 2,
                 "text": "Empecé a aprender la forma en la que se desarrollaban los aplicaciones tanto web como móviles y su funcionamiento. Es decir, la lógica en la que estas funcionan. \n\n He desempeñado mi rol desarrollando proyectos propios, también ayudando a la creación de MVP en eventos de hackathones. Actualmente trabajo como Freelancer ayudando a empresas, startups y cualquier cliente a materializar sus ideas.",
-                "src": ""
+                "src": "https://github.githubassets.com/images/modules/site/home-illo-team.svg"
             },
             {
                 "id": 3,
                 "text": "Cómo interes secundario, estoy trabajando en transformar todos mis conocimientos en como desarrollar Inteligencia Artificial. Me gusta innovar en tecnologías y siempre buscar algo que me permita desarrollar cosas que uno imagina imposibles.",
-                "src": ""
+                "src": "https://github.githubassets.com/images/modules/site/home-illo-team.svg"
             }
         ]
     },
