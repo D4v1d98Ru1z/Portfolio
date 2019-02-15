@@ -1,9 +1,14 @@
 import React from 'react'
 import Paragraph from './paragraph'
+import styled from 'styled-components'
 
+const Div = styled.div`
+    max-width: 1500px;
+    margin: auto; 
+`
 const About = (props) => {
   return (
-    <div>
+    <Div>
         <h2>{props.about.title}</h2>
         <div>
         {
@@ -17,7 +22,7 @@ const About = (props) => {
             })
         }
         </div>
-    </div>
+    </Div>
   )
 }
 

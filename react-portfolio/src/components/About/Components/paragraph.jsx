@@ -2,15 +2,20 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Div = styled.div`
-    display: flex;
-    max-width: 1500px;    
+    display: flex;      
+`
+const Img = styled.img`
+    width: 50%;
 `
 
+const Text = styled.p`
+    width: 50%;
+`
 function Paragraph(props){
     return(
         <Div>
-            <img src={props.src} alt="Illustration"/>
-            <p> {props.text} </p>
+            <Img src={props.src} alt="Illustration"/>
+            <Text> {props.text} </Text>
         </Div>
     )
 }
