@@ -3,22 +3,23 @@ import HomeLayout from '../components/home-layout'
 import Header from '../../Header/containers/header'
 import Welcome from '../../Welcome/containers/hello'
 import About from '../../About/Components/about'
+import Image from '../../../assets/resources/2.svg'
 
 class Home extends Component {
     render(){
         return(
             <HomeLayout>
                 <Header
-                    navbar={this.props.data.navbar}
+                    navbar={this.props.navbar}
                 />
                 <Welcome
-                    main={this.props.data.main}
+                    main={this.props.main}
                 />
                 <About
-                    about={this.props.data.about}
+                    about={this.props.about}
                 />
                 <p>{ this.props.main.src }</p>
-                <img src={this.props.main.src} alt="as"/>
+                <img src={this.props.main.src} width={200} height={200} alt="as"/>
             </HomeLayout>
         )
     }
@@ -52,7 +53,7 @@ Home.defaultProps = {
         greetings: "¡Hola a todos!",
         name: "soy David Ruiz",
         ocupation: "Fullstack Developer",
-        src: '../../../../assets/resources/1.svg'
+        src: `${Image}`
     },
     about:
     {
