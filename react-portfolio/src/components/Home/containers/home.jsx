@@ -3,7 +3,9 @@ import HomeLayout from '../components/home-layout'
 import Header from '../../Header/containers/header'
 import Welcome from '../../Welcome/containers/hello'
 import About from '../../About/Components/about'
-import Image from '../../../assets/resources/2.svg'
+import AboutFirstIcon from '../../../assets/resources/2.svg'
+import AboutSecondIcon from '../../../assets/resources/3.svg'
+import AboutThirdIcon from '../../../assets/resources/4.svg'
 
 class Home extends Component {
     render(){
@@ -18,8 +20,6 @@ class Home extends Component {
                 <About
                     about={this.props.about}
                 />
-                <p>{ this.props.main.src }</p>
-                <img src={this.props.main.src} width={200} height={200} alt="as"/>
             </HomeLayout>
         )
     }
@@ -53,7 +53,6 @@ Home.defaultProps = {
         greetings: "¡Hola a todos!",
         name: "soy David Ruiz",
         ocupation: "Fullstack Developer",
-        src: `${Image}`
     },
     about:
     {
@@ -62,17 +61,17 @@ Home.defaultProps = {
             {
                 id: 1,
                 text: "Como estudiante de ingeniería de sistemas mi enfoque se vió siempre dirigido hacia el desarrollo de software. Fué así que los últimos dos años me dediqué a investigar y aprender nuevas tecnologías enfocadas a la programación.",
-                src: "https://github.githubassets.com/images/modules/site/home-illo-team.svg"
+                src: `${AboutFirstIcon}`
             },
             {
                 id: 2,
                 text: "Empecé a aprender la forma en la que se desarrollaban los aplicaciones tanto web como móviles y su funcionamiento. Es decir, la lógica en la que estas funcionan. \n\n He desempeñado mi rol desarrollando proyectos propios, también ayudando a la creación de MVP en eventos de hackathones. Actualmente trabajo como Freelancer ayudando a empresas, startups y cualquier cliente a materializar sus ideas.",
-                src: "https://github.githubassets.com/images/modules/site/home-illo-team.svg"
+                src: `${AboutSecondIcon}`
             },
             {
                 id: 3,
                 text: "Cómo interes secundario, estoy trabajando en transformar todos mis conocimientos en como desarrollar Inteligencia Artificial. Me gusta innovar en tecnologías y siempre buscar algo que me permita desarrollar cosas que uno imagina imposibles.",
-                src: "https://github.githubassets.com/images/modules/site/home-illo-team.svg"
+                src: `${AboutThirdIcon}`
             }
         ]
     },

@@ -14,7 +14,7 @@ const Text = styled.p`
 function Paragraph(props){
     return(
         <Div>
-            <Img src={props.src} alt="Illustration"/>
+            <Img src={props.src} width={180} height={180} alt="Illustration"/>
             <Text> {props.text} </Text>
         </Div>
     )
