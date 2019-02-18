@@ -3,7 +3,7 @@ import Paragraph from './paragraph'
 import styled from 'styled-components'
 
 const Div = styled.div`
-    max-width: 1500px;
+    max-width: 1020px;
     margin: auto; 
 `
 const About = (props) => {
