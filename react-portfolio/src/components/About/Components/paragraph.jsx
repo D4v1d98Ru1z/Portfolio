@@ -3,18 +3,20 @@ import styled from 'styled-components'
 
 const Div = styled.div`
     display: flex;      
+    padding: 3.5em;
 `
 const Box = styled.div`
     width: 50%;
     text-align: left;
+    flex-grow: 2;
 `
 const Img = styled.img`
     width: 50%;
-    align-señf: center;
+    align-self: center;
+    flex-grow: 1;
 `
 
 const Text = styled.p`
-    width: 50%;
     margin: auto;
 `
 function Paragraph(props){
